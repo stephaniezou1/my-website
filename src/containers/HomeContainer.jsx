@@ -4,7 +4,7 @@ const HomeContainer = () => {
     return (
         <div className="home-container">
             <p className="intro">
-                Hi, I'm Stephanie Zou
+                Hello, my name is Stephanie Zou. I am a Full-Stack Web Developer living in New York, NY.
             </p>
 
         </div>
