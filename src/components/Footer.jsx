@@ -1,16 +1,21 @@
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar'
 
 const Footer = () => {
     return (
         <div className="footer">
-        <h4 id="contributors">
-          Made by <a href="https://github.com/stephaniezou1" target="blank" className="link">
-            Stephanie Zou
-            </a>
-        </h4>
-        <a href="https://github.com/stephaniezou1/news_frontend" target="blank" className="link">
-          <h4 id="header-link">GitHub repo</h4>
-        </a>
+            <Navbar id="footer" bg="dark" variant="dark">
+                <Navbar.Brand id="footer" href="https://github.com/stephaniezou1">
+                        Made by Stephanie Zou
+                </Navbar.Brand>
+                <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text>
+                    <a id="footer-link" href="https://github.com/stephaniezou1/news_frontend">
+                        GitHub Repo
+                    </a>
+                    </Navbar.Text>
+                </Navbar.Collapse>
+            </Navbar> 
       </div>
     )
 }

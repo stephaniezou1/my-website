@@ -1,5 +1,5 @@
 body {
-  font-family: "Karla", sans-serif !important;
+  font-family: "Menlo", sans-serif !important;
 }
 
 /* NavBar */
@@ -13,7 +13,7 @@ body {
   padding: 1.5rem 7rem 2rem 7rem;
 }
 
-.navbar-brand {
+.navbar-brand#my-name {
   display: inline-block;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
@@ -31,3 +31,25 @@ body {
   padding-bottom: .5rem;
 }
 
+/* footer */
+.footer {
+  padding: 1.5rem 8rem 1rem 8rem;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.navbar#footer {
+  padding: 0rem 0rem 0rem 0rem
+}
+
+.navbar-brand#footer {
+  padding-left: 1rem;
+  font-size: small;
+}
+
+.navbar-text {
+  padding-right: 1rem;
+  font-size: small;
+}
