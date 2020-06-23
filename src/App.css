@@ -1,5 +1,5 @@
 body {
-  font-family: "Menlo", sans-serif !important;
+  font-family: "Helvetica Monospaced", sans-serif !important;
 }
 
 /* NavBar */
@@ -47,11 +47,13 @@ body {
 .navbar-brand#footer {
   padding-left: 1rem;
   font-size: small;
+  font-family: "Menlo", sans-serif !important;
 }
 
 .navbar-text {
   padding-right: 1rem;
   font-size: small;
+  font-family: "Menlo", sans-serif !important;
 }
 
 /* home container */
