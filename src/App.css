@@ -53,3 +53,10 @@ body {
   padding-right: 1rem;
   font-size: small;
 }
+
+/* home container */
+.home-container {
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
