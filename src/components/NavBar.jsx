@@ -10,11 +10,11 @@ const NavBar = () => {
     return (
         <div className="nav-bar">
             <div className="social-media">
-                <SocialIcon url="https://twitter.com/StephanieXZou" style={{ height: 25, width: 25 }}/>
-                <SocialIcon url="https://github.com/stephaniezou1" style={{ height: 25, width: 25 }}/>
-                <SocialIcon url="https://www.linkedin.com/in/stephanie-zou/" style={{ height: 25, width: 25 }}/>
-                <SocialIcon url="https://medium.com/@stephaniezou" style={{ height: 25, width: 25 }}/>
-                <SocialIcon url="https://dev.to/stephaniezou" style={{ height: 25, width: 25 }}/>
+                <SocialIcon className="social-icon" url="https://twitter.com/StephanieXZou" style={{ height: 25, width: 25 }}/>
+                <SocialIcon className="social-icon" url="https://github.com/stephaniezou1" style={{ height: 25, width: 25 }}/>
+                <SocialIcon className="social-icon" url="https://www.linkedin.com/in/stephanie-zou/" style={{ height: 25, width: 25 }}/>
+                <SocialIcon className="social-icon" url="https://medium.com/@stephaniezou" style={{ height: 25, width: 25 }}/>
+                <SocialIcon className="social-icon" url="stephanie.zou3@gmail.com" style={{ height: 25, width: 25 }}/>
             </div>
             <Navbar fill="true"  expand="lg">    
             <Navbar.Brand id="my-name"href="/"><Logo/></Navbar.Brand>

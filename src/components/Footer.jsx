@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="fixed-bottom">
             <Navbar id="footer" bg="dark" variant="dark">
                 <Navbar.Brand id="footer" href="https://github.com/stephaniezou1">
                         Made by Stephanie Zou
