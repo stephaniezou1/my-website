@@ -1,5 +1,5 @@
 body {
-  font-family: "Georgia", sans-serif !important;
+  font-family: "Helvetica Monospaced", sans-serif !important;
 }
 
 /* home container */
@@ -74,4 +74,12 @@ body {
   font-size: small;
   font-family: "Menlo", sans-serif !important;
 }
+
+/* Projects */
+
+.header {
+  text-align: center;
+}
+
+
 
