@@ -60,7 +60,7 @@ const allProjects = [
         "mediumUrl": "https://medium.com/@stephaniezou/acorn-web-app-how-i-built-a-search-engine-using-ruby-on-rails-5efc3670a887?source=your_stories_page---------------------------",
         "techStack": "Ruby on Rails, PostgreSQL, SQLite, HTML/CSS",
         "description": "Yelp, but designed to help families find affordable after school activities 📚",
-        "dateCreated": "May 2020"
+        "dateCreated": "Apr 2020"
     }
 ]
 

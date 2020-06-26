@@ -12,19 +12,18 @@ export default class ResumeContainer extends Component {
 
     render() {
     return (
-        <div>
+        <div className="resume-container">
             <Card className="text-center">
-                <Card.Header>Stephanie Zou</Card.Header>
+                <Card.Header></Card.Header>
                 <Card.Body>
                     <Card.Title>Resume</Card.Title>
                     <Card.Text>
-                    Email - stephanie.zou3@gmail.com
+                    Email: stephanie.zou3@gmail.com
                     </Card.Text>
                     <Button variant="primary"onClick={this.onResumeClick}>Resume PDF</Button>
                 </Card.Body>
                 <Card.Footer className="text-muted">June 2020</Card.Footer>
             </Card>
         </div>
-    );
-}
-}
+    )}
+};

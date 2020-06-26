@@ -7,8 +7,8 @@ body {
   min-height: 100vh;
   position: relative;
   padding-top: 3rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  /* padding-left: 10rem;
+  padding-right: 10rem; */
 }
 
 .intro {
@@ -22,7 +22,13 @@ body {
   align-items: center;
   display: block;
   text-align: center;
+}
 
+/* resume container */
+.resume-container {
+  padding-top: 2rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
 }
 
 /* NavBar */
@@ -81,5 +87,19 @@ body {
   text-align: center;
 }
 
+.projects-deck {
+  padding-top: 2rem;
+  margin-left: 15px !important;
+  flex-direction: column;
+  justify-content: center;
+  display: inline-block;
+}
+
+.card-deck .card {
+    flex: 1 0;
+    max-width: 500px;
+    margin-bottom: 2rem !important;
+    display: inline-block;
+}
 
 

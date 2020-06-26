@@ -6,9 +6,9 @@ const Project = (props) => {
 
     let {name, githubUrl, mediumUrl, techStack, description, dateCreated } = props.project
     return(
-        <div>
-            <CardDeck>
-            <Card className="text-center">
+        <div >
+            <CardDeck className="projects-deck"  >
+            <Card >
                 <Card.Header>{name}</Card.Header>
                 <Card.Body>
                 <Card.Subtitle className="mb-2 text-muted">{techStack}</Card.Subtitle>
@@ -18,7 +18,7 @@ const Project = (props) => {
                     <Card.Link href={githubUrl}>GitHub Repo</Card.Link>
                     <Card.Link href={mediumUrl}>Medium Blog</Card.Link>                
                 </Card.Body>
-                <Card.Footer className="text-muted">{dateCreated}</Card.Footer>
+                <Card.Footer className="text-muted" >{dateCreated}</Card.Footer>
                 </Card>
             </CardDeck>
         </div>
