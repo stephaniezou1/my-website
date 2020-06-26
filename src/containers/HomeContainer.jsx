@@ -8,6 +8,7 @@ import Photo from '../components/Photo.jsx';
 const HomeContainer = () => {
     return (
         <div className="home-container">
+                 <h3 className="header">About Me</h3>
             <Container>
             <Row>
                 <Col xs="8">

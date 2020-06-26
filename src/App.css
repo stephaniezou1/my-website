@@ -5,16 +5,16 @@ body {
 /* home container */
 .home-container {
   justify-content: center;
+  padding-bottom: 5rem;
 }
 
 .intro {
-  text-align: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  margin-top: .5rem;
 }
 
 .img-thumbnail {
   padding: .25rem;
+  margin-top: 2rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
   border-radius: .25rem;
@@ -37,7 +37,7 @@ body {
 }
 
 .nav-bar {
-  padding: 1.5rem 7rem 2rem 7rem;
+  padding: 1.5rem 7rem 1rem 7rem;
 }
 
 .navbar-brand#my-name {
