@@ -4,24 +4,22 @@ body {
 
 /* home container */
 .home-container {
-  min-height: 100vh;
-  position: relative;
-  padding-top: 3rem;
-  /* padding-left: 10rem;
-  padding-right: 10rem; */
+  justify-content: center;
 }
 
 .intro {
   text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
-.rounded-circle {
-  border-radius: 50%!important;
-  width: 50rem;
-  justify-content: center !important;
-  align-items: center;
-  display: block;
-  text-align: center;
+.img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
 }
 
 /* resume container */

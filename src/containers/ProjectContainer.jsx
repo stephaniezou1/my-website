@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../components/Project.jsx'
 import allProjects from '../data/projects.js'
+import {Container, Row, Col} from 'react-bootstrap'
 
 const ProjectContainer = () => {
 
@@ -17,9 +18,11 @@ const ProjectContainer = () => {
             <h3 className="header">
                 Technical Projects
             </h3>
-            <div>
-            {arrayOfProjects}
-            </div>
+            <Container>
+                <Row xs="2">
+                        {arrayOfProjects}
+                </Row>
+            </Container>
         </div>
     )
 }
