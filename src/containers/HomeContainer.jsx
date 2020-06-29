@@ -6,7 +6,6 @@ import Intro from '../components/Intro.jsx'
 import Photo from '../components/Photo.jsx';
 import Image from 'react-bootstrap/Image'
 
-
 const HomeContainer = () => {
     return (
         <div>
