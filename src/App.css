@@ -104,7 +104,7 @@ body {
   text-align: center;
 }
 
-.card-deck .card {
+.project-card {
     flex: 1 0;
     max-width: 500px;
     margin-bottom: 2rem !important;
@@ -113,15 +113,20 @@ body {
 
 /* writing container */
 
-.carousel-caption {
-  margin-bottom: 4rem;
+.writing-deck {
+  display: inline-block !important;
+  padding-bottom: 5rem;
 }
 
-.w-100 {
-  width: 100%!important;
-  height: 100% !important;
+.writing-card {
+  width: 800px !important;
+  text-align: center;
+  margin: 2rem;
+  flex-direction: column;
 }
 
-.carousel-inner{
-  height:100% !important;
+.col-centered{
+  float: none !important;
+  margin: 0 auto !important;
 }
+
