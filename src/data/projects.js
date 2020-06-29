@@ -16,7 +16,7 @@ const allProjects = [
         "mediumUrl": "#",
         "deployedUrl": null,
         "techStack": "Ruby, Rails, PostgreSQL",
-        "description": "Developed using the Google Civic Information API for election information and the Twilio API for text notifications",
+        "description": "Developed a Rails backend using the Google Civic Information API for election and polling station information using user addresses as search params and the Twilio API to enable text notifications",
         "dateCreated": "June 2020"
     },
     {
@@ -26,7 +26,7 @@ const allProjects = [
         "mediumUrl": "https://medium.com/swlh/tutorial-build-a-toggle-button-using-reactjs-inverse-data-flow-in-es6-cc772155ad03",
         "deployedUrl": null,
         "techStack": "React.js, ES6, Semantic CSS",
-        "description": "A news app that allows you to toggle for COVID-19 related news and filter by trending tags for a more curated experience!",
+        "description": "A news app that allows you to toggle a filter for COVID-19 related news and search for news by trending tags for a more curated experience!",
         "dateCreated": "June 2020"
     },
     {
@@ -36,7 +36,7 @@ const allProjects = [
         "mediumUrl": "https://levelup.gitconnected.com/tutorial-build-a-yelp-dynamic-search-with-ruby-on-rails-b1a40f60fdd2",
         "deployedUrl": null,
         "techStack": "Ruby, Rails, PostgreSQL",
-        "description": "Database seeded with articles from the News API",
+        "description": "Developed the backend using Ruby on Rails and seeded the postgreSQL database with current articles from the News API",
         "dateCreated": "June 2020"
     },
     {
@@ -46,7 +46,7 @@ const allProjects = [
         "mediumUrl": "https://medium.com/swlh/creating-hidden-forms-using-javascript-286356a13dc4",
         "deployedUrl": null,
         "techStack": "JavaScript, JQuery, Semantic CSS",
-        "description": "Curated movie list to help you choose a film for your next movie night 🎥",
+        "description": "A single-page web application filled with the latest movie releases with user reviews and likes for a curated movie selecting tool",
         "dateCreated": "May 2020"
     },
     {
