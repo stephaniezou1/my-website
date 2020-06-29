@@ -14,7 +14,7 @@ const ProjectContainer = () => {
     })
 
     return (
-        <div>
+        <div className="project-container">
             <h3 className="header">
                 Technical Projects
             </h3>

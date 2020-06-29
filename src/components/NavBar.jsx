@@ -16,8 +16,8 @@ const NavBar = () => {
                 <Nav className="ml-auto" defaultActiveKey="http://localhost:3000/">
                     <NavLink to="/" exact className="nav-link"> Home </NavLink> 
                     <NavLink to="/projects" exact className="nav-link">Projects</NavLink>
+                    <NavLink to="/writing" exact className="nav-link">Writing</NavLink> 
                     <NavLink to="/resume" exact className="nav-link">Resume</NavLink>
-                    <NavLink to="/writing" exact className="nav-link">Writing+</NavLink> 
                 </Nav>
                 </Navbar.Collapse>
             </Navbar> 
