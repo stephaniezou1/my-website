@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../components/Project.jsx'
 import allProjects from '../data/projects.js'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row} from 'react-bootstrap'
 
 const ProjectContainer = () => {
 
