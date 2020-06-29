@@ -15,10 +15,10 @@ const HomeContainer = () => {
                  <h3 className="about-header">About Me</h3>
             <Container>
             <Row>
-                <Col xs="8">
+                <Col>
                     <Photo/>
                 </Col>
-                <Col xs="4">
+                <Col>
                     <Intro/>
                 </Col>
             </Row>
