@@ -16,6 +16,8 @@ body {
 .intro {
   margin-top: .5rem;
   display: inline-block !important;
+  text-align: justify !important;
+  
 }
 
 .img-thumbnail {
@@ -26,7 +28,6 @@ body {
   border-radius: .25rem;
   max-width: 100%;
   height: auto;
-  float: left;
 }
 
 /* resume container */
