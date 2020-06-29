@@ -4,7 +4,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 
 const Project = (props) => {
 
-    let {name, githubUrl, mediumUrl, techStack, description, dateCreated } = props.project
+    let {name, githubUrl, mediumUrl, deployedUrl, techStack, description, dateCreated } = props.project
     return(
         <div >
             <CardDeck className="projects-deck"  >
@@ -16,7 +16,12 @@ const Project = (props) => {
                     {description}
                     </Card.Text>
                     <Card.Link href={githubUrl}>GitHub Repo</Card.Link>
-                    <Card.Link href={mediumUrl}>Medium Blog</Card.Link>                
+                    {deployedUrl === null
+                    ?
+                    <Card.Link href={mediumUrl}>Technical Tutorial</Card.Link>
+                    :
+                    <Card.Link href={deployedUrl}>Demo</Card.Link>
+                    }             
                 </Card.Body>
                 <Card.Footer className="text-muted" >{dateCreated}</Card.Footer>
                 </Card>
