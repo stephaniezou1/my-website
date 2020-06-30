@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="fixed-bottom">
             <Navbar id="footer" bg="dark" variant="dark">
                 <Navbar.Brand id="footer" href="https://github.com/stephaniezou1">
-                        Made by Stephanie Zou
+                        Made with React.js by Stephanie Zou
                 </Navbar.Brand>
                 <div className="social-media">
                 <SocialIcon className="social-icon" url="https://twitter.com/StephanieXZou" style={{ height: 25, width: 25 }}/>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
                     <a id="footer-link" href="https://github.com/stephaniezou1/my-website">
-                        GitHub Repo 
+                        Check out how I built this - GitHub Repo 
                     </a>
                     </Navbar.Text>
                 </Navbar.Collapse>
