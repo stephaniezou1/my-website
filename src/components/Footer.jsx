@@ -20,7 +20,7 @@ const Footer = () => {
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
                     <a id="footer-link" href="https://github.com/stephaniezou1/my-website">
-                        GitHub Repo
+                        GitHub Repo 
                     </a>
                     </Navbar.Text>
                 </Navbar.Collapse>
