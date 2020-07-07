@@ -8,7 +8,6 @@ import Image from 'react-bootstrap/Image'
 const HomeContainer = () => {
     return (
         <div>
-            <Image src={require("../images/resume.jpg")} fluid />
         <div className="home-container">
                  <h3 className="about-header">About Me</h3>
             <Container>
@@ -22,6 +21,7 @@ const HomeContainer = () => {
             </Row>
             </Container>
         </div>
+            <Image src={require("../images/resume.jpg")} fluid />
         </div>
     )
 }
