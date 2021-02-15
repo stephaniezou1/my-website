@@ -15,16 +15,15 @@ const WritingContainer = () => {
     }
 
     return (
-        <div className="writing-container">
+        <div className="project-container">
             <h3 className="header">
-                Writing
+                Technical Projects
             </h3>
             <Container>
-                <Row className="d-flex justify-content-center">
-                <CardDeck className="writing-deck">
-
-                    <Card className="writing-card">
-                        <Card.Img variant="top" src={require("../images/medium.jpg")} />
+                <Row xs="2">
+                <CardDeck className="projects-deck"  >
+                    <Card className="project-card">
+                    <Card.Img variant="top" src={require("../images/medium.jpg")} />
                         <Card.Body>
                             <Card.Title>Technical Publications on Medium</Card.Title>
                             <Card.Text>
@@ -33,8 +32,9 @@ const WritingContainer = () => {
                             <Button variant="primary" onClick={onPublicationClick}>See publications</Button>
                         </Card.Body>
                     </Card>
-                    
-                    <Card className="writing-card" >
+                    </CardDeck>
+                    <CardDeck className="projects-deck"  >
+                    <Card className="project-card" >
                         <Card.Img variant="top" src={require("../images/nyu-purple.jpg")} />
                         <Card.Body>
                             <Card.Title>Undergraduate Thesis Paper for BPE</Card.Title>
@@ -44,11 +44,11 @@ const WritingContainer = () => {
                             <Button variant="primary" onClick={onThesisClick}>See paper</Button>
                         </Card.Body>
                     </Card>
-
                 </CardDeck>
                 </Row>
             </Container>
         </div>
+
     )
 }
 

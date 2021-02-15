@@ -18,16 +18,20 @@ export default class ResumeContainer extends Component {
                 <Image src={require("../images/profile.jpg")} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>Stephanie's Resume</Card.Header>
-                <Card.Meta>
+                {/* <Card.Meta>
                     <span className='date'>Los Angeles, CA</span>
-                </Card.Meta>
+                </Card.Meta> */}
                 <Card.Description>
                     Stephanie works in strategy at the Walt Disney Company and freelances as a full-stack web developer. 
                 </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                 <a>
-                    <Button onClick={this.onResumeClick}>View PDF</Button>
+                <Grid>
+                    <Grid.Column textAlign="center">
+                    <Button primary onClick={this.onResumeClick}>View PDF</Button>
+                    </Grid.Column>
+                </Grid>
                 </a>
                 </Card.Content>
             </Card>
