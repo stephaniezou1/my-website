@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pdfFile from '../files/stephanie_zou_resume_2020.pdf'
+import pdfFile from '../files/stephanie_zou_resume_2021_updated.pdf'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 

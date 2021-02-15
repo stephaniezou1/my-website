@@ -21,7 +21,6 @@ const HomeContainer = () => {
             </Row>
             </Container>
         </div>
-            <Image src={require("../images/resume.jpg")} fluid />
         </div>
     )
 }
