@@ -2,14 +2,7 @@ import React from 'react';
 import Intro from '../components/Intro.jsx'
 import {
     Container,
-    Divider,
-    Dropdown,
-    Grid,
-    Header,
-    Image,
-    List,
-    Menu,
-    Segment,
+    Header
   } from 'semantic-ui-react'
 
 const HomeContainer = () => {
