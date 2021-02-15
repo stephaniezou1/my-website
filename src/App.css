@@ -36,7 +36,7 @@ body {
 }
 
 /* NavBar */
-.navbar-expand-lg .navbar-nav .nav-link {
+/* .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 2rem;
   padding-left: 2rem;
   margin-left: 1rem;
@@ -45,9 +45,9 @@ body {
 .nav-bar {
   padding: 1.5rem 7rem 1rem 7rem;
 
-}
+} */
 
-.navbar-brand#my-name {
+/* .navbar-brand#my-name {
   display: inline-block;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
@@ -55,14 +55,14 @@ body {
   font-size: 2rem !important;
   line-height: inherit;
   white-space: nowrap;
-}
+} */
 
 /* social icons */
-.social-media {
+/* .social-media {
   text-align: right;
   padding-top: 0.2rem;
   padding-right: 1.5rem;
-}
+} */
 
 .social-icon {
   margin-left: 4px;

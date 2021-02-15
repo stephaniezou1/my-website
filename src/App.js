@@ -11,7 +11,7 @@ import './App.css';
 // Routing
 import {Route, Switch} from 'react-router-dom'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <NavBar/>
