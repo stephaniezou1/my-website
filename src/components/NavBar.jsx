@@ -20,15 +20,19 @@ const NavBar = () => {
         <div className="nav-bar">
             <Menu fixed='top' inverted>
                 <Container>
-                    <Menu.Item as='a' header>
-                    <Image size='mini' src={Logo} style={{ marginRight: '1.5em' }} />
+                    <Menu.Item as={NavLink} to="/" exact header>
+                    {/* <Image size='mini' src={Logo} style={{ marginRight: '1.5em' }} /> */}
                     Stephanie Zou
                     </Menu.Item>
                     <Menu.Item as={NavLink} to="/" exact>Home</Menu.Item>
-                    <Menu.Item as={NavLink} to="/projects" exact>Projects</Menu.Item>
-                    <Menu.Item as={NavLink} to="/writing" exact>Writing</Menu.Item>
+                    <Dropdown item simple text='Projects'>
+                        <Dropdown.Menu>
+                            <Dropdown.Item as={NavLink} to="/projects" exact>Code</Dropdown.Item>
+                            <Dropdown.Item as={NavLink} to="/writing" exact>Writing</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
                     <Menu.Item as={NavLink} to="/resume" exact>Resume</Menu.Item>
-                    <Menu.Item as={NavLink} to="/recommendations" exact>Recommendations</Menu.Item>
+                    <Menu.Item as={NavLink} to="/recommendations" exact>Recs</Menu.Item>
                     <Dropdown item simple text='Contact'>
                         <Dropdown.Menu>
                             <Dropdown.Item as="a" href="mailto:stephanie.zou3@gmail.com">Email</Dropdown.Item>
@@ -39,7 +43,7 @@ const NavBar = () => {
                             <Dropdown.Item as="a" href="https://twitter.com/StephanieXZou">Twitter</Dropdown.Item>
                             <Dropdown.Item as="a" href="https://medium.com/@stephaniezou">Medium</Dropdown.Item>
                         </Dropdown.Menu>
-                        </Dropdown>
+                    </Dropdown>
                 </Container>
                 </Menu>
                

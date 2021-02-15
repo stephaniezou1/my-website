@@ -5,15 +5,16 @@ export class Intro extends Component {
         return (
             <div className="intro">
                 <br/>
-                <p> Hi! My name is Stephanie Zou. I'm a full-stack web developer and a recent graduate of Flatiron School where I completed an intensive software engineering bootcamp. 
+                <p> Hi! My name is Stephanie Zou.
+                I'm a full-stack web developer and graduate of Flatiron School where I completed an intensive software engineering bootcamp. 
                 <br/><br/>
-                Over the course of 15 weeks at Flatiron, I built five full-stack web applications using Ruby, Rails, Sinatra, JavaScript, React.js, Redux.js, HTML and various CSS libraries. I've also linked the GitHub repo for this website in the footer (built with React.js).
+                I've built apps using Ruby, Rails, Sinatra, JavaScript, React.js, Redux.js, HTML and various CSS libraries.
                 <br/><br/>
                 Before Flatiron, I graduated early in December 2019 with the class of 2020 from NYU's Stern School of Business with a B.S. degree in Business and Political Economy (BPE).
                 <br/><br/>
-                When I'm not working, you'll most likely find me outside in the sun either on a run or on a bike, reading the news (longform articles + twitter), listening to podcasts (@PodSaveThePeople + @A16z), reading short stories and books (often rec'd by my friends @naomi and @mina), watching a movie, cooking with friends, or phonebanking for candidates.
+                I'm currently working at the Walt Disney Company on the strategy team for Disney's Media and Entertainment Distribution. My team focuses on building our streaming services and all direct-to-consumer initiatives!
                 <br/><br/>
-                Please feel free to connect with me via social media or shoot me an email - links are in the footer.
+                My interests include: civic hacking, media disruption, social policy, angel investing, and equitable urban development.
                 </p>
             </div>
         )
