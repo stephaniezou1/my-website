@@ -4,14 +4,8 @@ import Logo from './Logo.jsx'
 import { NavLink, Link } from 'react-router-dom'
 import {
     Container,
-    Divider,
     Dropdown,
-    Grid,
-    Header,
-    Image,
-    List,
     Menu,
-    Segment,
   } from 'semantic-ui-react'
 
 
