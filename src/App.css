@@ -1,12 +1,12 @@
-body {
+/* body {
   font-family: "Helvetica Monospaced", sans-serif !important;
-}
+} */
 
 /* home container */
-.about-header {
+/* .about-header {
   text-align: center;
   /* padding-top: 4rem; */
-}
+/* }
 
 .home-container {
   justify-content: center;
@@ -18,8 +18,8 @@ body {
   display: inline-block !important;
   text-align: justify !important;
   
-}
-
+} */
+/* 
 .img-thumbnail {
   padding: .25rem;
   margin-top: 2rem;
@@ -31,42 +31,14 @@ body {
 }
 
 /* resume container */
-.resume-container {
+/* .resume-container {
   padding-top: 2rem;
-}
-
-/* NavBar */
-/* .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 2rem;
-  padding-left: 2rem;
-  margin-left: 1rem;
-}
-
-.nav-bar {
-  padding: 1.5rem 7rem 1rem 7rem;
-
 } */
 
-/* .navbar-brand#my-name {
-  display: inline-block;
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
-  margin-right: 1rem;
-  font-size: 2rem !important;
-  line-height: inherit;
-  white-space: nowrap;
-} */
 
-/* social icons */
-/* .social-media {
-  text-align: right;
-  padding-top: 0.2rem;
-  padding-right: 1.5rem;
-} */
-
-.social-icon {
+/* .social-icon {
   margin-left: 4px;
-}
+}  */
 
 /* footer */
 
@@ -131,3 +103,8 @@ body {
   margin: 0 auto !important;
 }
 
+/* Resume Container */
+
+.resume-container{
+  padding-top: 6em;
+}

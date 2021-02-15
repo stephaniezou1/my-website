@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import pdfFile from '../files/stephanie_zou_resume_2021_updated.pdf'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+import { 
+    Card, Button, Image, Grid, Segment
+} from 'semantic-ui-react'
 
 export default class ResumeContainer extends Component {
 
@@ -11,18 +12,26 @@ export default class ResumeContainer extends Component {
 
     render() {
     return (
-        <div className="resume-container">
-            <Card className="text-center">
-                <Card.Header></Card.Header>
-                <Card.Body>
-                    <Card.Title>Resume</Card.Title>
-                    <Card.Text>
-                    Email: stephanie.zou3@gmail.com
-                    </Card.Text>
-                    <Button variant="primary" onClick={this.onResumeClick}>Resume PDF</Button>
-                </Card.Body>
-                <Card.Footer className="text-muted">June 2020</Card.Footer>
+        <div class="resume-container">
+        <div class="ui centered card">
+              <Card>
+                <Image src={require("../images/profile.jpg")} wrapped ui={false} />
+                <Card.Content>
+                <Card.Header>Stephanie's Resume</Card.Header>
+                <Card.Meta>
+                    <span className='date'>Los Angeles, CA</span>
+                </Card.Meta>
+                <Card.Description>
+                    Stephanie works in strategy at the Walt Disney Company and freelances as a full-stack web developer. 
+                </Card.Description>
+                </Card.Content>
+                <Card.Content extra>
+                <a>
+                    <Button onClick={this.onResumeClick}>View PDF</Button>
+                </a>
+                </Card.Content>
             </Card>
+            </div>
         </div>
     )}
 };
