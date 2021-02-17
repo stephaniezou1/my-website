@@ -8,9 +8,9 @@ const Rec = (props) => {
     console.log("props", props)
     let {title, name, genre, location, link} = props.rec
 
-    const onItemClick = () => {
-        window.open({link})
-    }
+    // const onItemClick = (link) => {
+    //     window.open({link})
+    // }
 
     return(
         <div>
@@ -24,7 +24,7 @@ const Rec = (props) => {
                         {/* <Card.Subtitle>{genre}</Card.Subtitle> */}
                         <Card.Subtitle as="h6">{location}</Card.Subtitle>
                     <Card.Body>
-                        <Card.Link variant="primary" onClick={onItemClick}>See More</Card.Link>
+                        <Card.Link variant="primary" href={link}>See More</Card.Link>
                     </Card.Body>
                     </Card.Body>
                 </Card>
