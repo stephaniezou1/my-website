@@ -12,7 +12,7 @@ import {
 const NavBar = () => {
     return (
         <div className="nav-bar">
-            <Menu fixed='top' inverted>
+            <Menu stackable fixed='top' inverted>
                 <Container>
                     <Menu.Item as={NavLink} to="/" exact header>
                     {/* <Image size='mini' src={Logo} style={{ marginRight: '1.5em' }} /> */}
