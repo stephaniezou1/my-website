@@ -26,7 +26,7 @@ const NavBar = () => {
                         </Dropdown.Menu>
                     </Dropdown>
                     <Menu.Item as={NavLink} to="/resume" exact>Resume</Menu.Item>
-                    <Menu.Item as={NavLink} to="/recommendations" exact>Recs</Menu.Item>
+                    <Menu.Item as={NavLink} to="/recs" exact>Recs</Menu.Item>
                     <Dropdown item simple text='Contact'>
                         <Dropdown.Menu>
                             <Dropdown.Item as="a" href="mailto:stephanie.zou3@gmail.com">Email</Dropdown.Item>

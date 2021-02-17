@@ -17,7 +17,7 @@ const WritingContainer = () => {
     return (
         <div className="project-container">
             <h3 className="header">
-                Technical Projects
+                My Writing
             </h3>
             <Container>
                 <Row xs="2">

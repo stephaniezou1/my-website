@@ -5,6 +5,7 @@ import HomeContainer from './containers/HomeContainer'
 import ProjectContainer from './containers/ProjectContainer'
 import ResumeContainer from './containers/ResumeContainer'
 import WritingContainer from './containers/WritingContainer'
+import RecsContainer from './containers/RecsContainer';
 
 import './App.css';
 
@@ -27,6 +28,9 @@ const App = () => {
           </Route>
           <Route exact path="/writing">
             <WritingContainer/>
+          </Route>
+          <Route exact path="/recs">
+            <RecsContainer/>
           </Route>
       </Switch>
       <Footer/>

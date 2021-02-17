@@ -62,6 +62,8 @@
 
 .project-container {
   padding-bottom: 4rem;
+  padding-top: 6em;
+
 }
 
 .header {
@@ -106,5 +108,11 @@
 /* Resume Container */
 
 .resume-container{
+  padding-top: 6em;
+}
+
+/* Recs Container */
+
+.recs-container{
   padding-top: 6em;
 }
