@@ -13,9 +13,9 @@ const NavBar = () => {
             <Navbar.Brand href="#home">Stephanie Zou</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="mr-auto" defaultActiveKey="http://localhost:3000/">
                 <Nav.Link href="/" exact>Home</Nav.Link>
-                <Nav.Link href="/projects" exact>Coding Projects</Nav.Link>
+                <Nav.Link href="/code" exact>Coding</Nav.Link>
                 <Nav.Link href="/writing" exact>Writing</Nav.Link>
                 <Nav.Link href="/resume" exact>Resume</Nav.Link>
                 <Nav.Link href="/recs" exact>Recs</Nav.Link>

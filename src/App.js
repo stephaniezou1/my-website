@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import HomeContainer from './containers/HomeContainer'
-import ProjectContainer from './containers/ProjectContainer'
+import CodeContainer from './containers/CodeContainer'
 import ResumeContainer from './containers/ResumeContainer'
 import WritingContainer from './containers/WritingContainer'
 import RecsContainer from './containers/RecsContainer';
@@ -14,15 +14,15 @@ import {Route, Switch} from 'react-router-dom'
 
 class App extends React.Component {
 
-  state = {
-    genreFilter: "All"
-  }
+  // state = {
+  //   genreFilter: "All"
+  // }
 
-  handleGenreFilter = (selectedFilter) => {
-    this.setState({
-      genreFilter: selectedFilter
-    })
-  }
+  // handleGenreFilter = (selectedFilter) => {
+  //   this.setState({
+  //     genreFilter: selectedFilter
+  //   })
+  // }
 
   render (){
     return (
@@ -32,8 +32,8 @@ class App extends React.Component {
             <Route exact path="/">
               <HomeContainer/>
             </Route>
-            <Route exact path="/projects">
-              <ProjectContainer/>
+            <Route exact path="/code">
+              <CodeContainer/>
             </Route>
             <Route exact path="/resume">
               <ResumeContainer/>
@@ -43,8 +43,8 @@ class App extends React.Component {
             </Route>
             <Route exact path="/recs">
               <RecsContainer
-              genreFilter = {this.state.genreFilter}
-              handleGenreFilter = {this.handleGenreFilter}
+              // genreFilter = {this.state.genreFilter}
+              // handleGenreFilter = {this.handleGenreFilter}
               />
             </Route>
         </Switch>

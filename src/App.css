@@ -24,7 +24,7 @@
   padding: .25rem;
   margin-top: 2rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #dee2e4;
   border-radius: .25rem;
   max-width: 100%;
   height: auto;
@@ -62,7 +62,7 @@
 
 .project-container {
   padding-bottom: 4rem;
-  padding-top: 6em;
+  padding-top: 4em;
 
 }
 
@@ -108,13 +108,13 @@
 /* Resume Container */
 
 .resume-container{
-  padding-top: 6em;
+  padding-top: 4em;
 }
 
 /* Recs Container */
 
 .recs-container{
-  padding-top: 6em;
+  padding-top: 4em;
 }
 
 /* NavBar */

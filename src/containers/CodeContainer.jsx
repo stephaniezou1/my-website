@@ -3,7 +3,7 @@ import Project from '../components/Project.jsx'
 import allProjects from '../data/projects.js'
 import {Container, Row} from 'react-bootstrap'
 
-const ProjectContainer = () => {
+const CodeContainer = () => {
 
     console.log("all projects", allProjects)
     let arrayOfProjects = allProjects.map((project) => {
@@ -27,4 +27,4 @@ const ProjectContainer = () => {
     )
 }
 
-export default ProjectContainer;
+export default CodeContainer;
