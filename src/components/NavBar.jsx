@@ -15,26 +15,25 @@ const NavBar = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                 <Nav.Link href="/" exact>Home</Nav.Link>
-                <Nav.Link href="/projects">Coding Projects</Nav.Link>
-                <Nav.Link href="/writing">Writing</Nav.Link>
-                <Nav.Link href="/resume">Resume</Nav.Link>
-                <Nav.Link href="/recs">Recs</Nav.Link>
+                <Nav.Link href="/projects" exact>Coding Projects</Nav.Link>
+                <Nav.Link href="/writing" exact>Writing</Nav.Link>
+                <Nav.Link href="/resume" exact>Resume</Nav.Link>
+                <Nav.Link href="/recs" exact>Recs</Nav.Link>
                 </Nav>
                 <Nav>
-                {/* <NavDropdown title="Contact" id="collasible-nav-dropdown">
+                <NavDropdown title="Contact" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="mailto:stephanie.zou3@gmail.com">Email</NavDropdown.Item>
                         <NavDropdown.Divider />
                     <NavDropdown.Item href="https://github.com/stephaniezou1">GitHub</NavDropdown.Item>
                     <NavDropdown.Item href="https://www.linkedin.com/in/stephanie-zou/">LinkedIn</NavDropdown.Item>
-                        <NavDropdown.Divider />
                     <NavDropdown.Item href="https://twitter.com/StephanieXZou">Twitter</NavDropdown.Item>
                     <NavDropdown.Item href="https://medium.com/@stephaniezou">Medium</NavDropdown.Item>
-                </NavDropdown> */}
-                    <Nav.Link href="mailto:stephanie.zou3@gmail.com">Email</Nav.Link>
+                </NavDropdown>
+                    {/* <Nav.Link href="mailto:stephanie.zou3@gmail.com">Email</Nav.Link>
                     <Nav.Link href="https://github.com/stephaniezou1">GitHub</Nav.Link>
                     <Nav.Link href="https://www.linkedin.com/in/stephanie-zou/">LinkedIn</Nav.Link>
                     <Nav.Link href="https://twitter.com/StephanieXZou">Twitter</Nav.Link>
-                    <Nav.Link href="https://medium.com/@stephaniezou">Medium</Nav.Link>
+                    <Nav.Link href="https://medium.com/@stephaniezou">Medium</Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
             </Navbar>

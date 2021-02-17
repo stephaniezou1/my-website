@@ -8,7 +8,7 @@ import {
 const HomeContainer = () => {
     return (
         <div>
-            <Container text style={{ marginTop: '7em' }}>
+            <Container text style={{ marginTop: '5em', paddingBottom:"5em"}}>
                 <Header as='h1'>Home</Header>
                 <p> <Intro/></p>
 
