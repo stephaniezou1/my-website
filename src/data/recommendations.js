@@ -66,7 +66,7 @@ const allRecs = [
     {
         "id": 9,
         "title": "Dim Sum",
-        "name": "DinTaiFung",
+        "name": "Din Tai Fung",
         "genre": "Food",
         "location": "Century City",
         "link": "https://www.dintaifungusa.com/us/locations/los-angeles.html"

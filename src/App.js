@@ -12,30 +12,46 @@ import './App.css';
 // Routing
 import {Route, Switch} from 'react-router-dom'
 
-const App = () => {
-  return (
-    <div className="App">
-      <NavBar/>
-      <Switch>
-          <Route exact path="/">
-            <HomeContainer/>
-          </Route>
-          <Route exact path="/projects">
-            <ProjectContainer/>
-          </Route>
-          <Route exact path="/resume">
-            <ResumeContainer/>
-          </Route>
-          <Route exact path="/writing">
-            <WritingContainer/>
-          </Route>
-          <Route exact path="/recs">
-            <RecsContainer/>
-          </Route>
-      </Switch>
-      <Footer/>
-    </div>
-  );
+class App extends React.Component {
+
+  state = {
+    genreFilter: "All"
+  }
+
+  handleGenreFilter = (selectedFilter) => {
+    this.setState({
+      genreFilter: selectedFilter
+    })
+  }
+
+  render (){
+    return (
+      <div className="App">
+        <NavBar/>
+        <Switch>
+            <Route exact path="/">
+              <HomeContainer/>
+            </Route>
+            <Route exact path="/projects">
+              <ProjectContainer/>
+            </Route>
+            <Route exact path="/resume">
+              <ResumeContainer/>
+            </Route>
+            <Route exact path="/writing">
+              <WritingContainer/>
+            </Route>
+            <Route exact path="/recs">
+              <RecsContainer
+              genreFilter = {this.state.genreFilter}
+              handleGenreFilter = {this.handleGenreFilter}
+              />
+            </Route>
+        </Switch>
+        <Footer/>
+      </div>
+    );
+  }
 }
 
 export default App;

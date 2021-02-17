@@ -11,11 +11,11 @@ const Footer = () => {
                         Made with React.js by Stephanie Zou
                 </Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
-                    <Navbar.Text>
+                    {/* <Navbar.Text>
                     <a id="footer-link" href="https://github.com/stephaniezou1/my-website">
                         Check out how I built this - GitHub Repo 
                     </a>
-                    </Navbar.Text>
+                    </Navbar.Text> */}
                 </Navbar.Collapse>
             </Navbar> 
       </div>
