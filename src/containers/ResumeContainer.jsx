@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pdfFile from '../files/stephanie_zou_resume_2021_updated.pdf'
+import pdfFile from '../files/stephanie_zou_resume.pdf'
 import { 
     Card, Button, Image, Grid, Segment
 } from 'semantic-ui-react'
