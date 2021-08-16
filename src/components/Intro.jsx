@@ -6,7 +6,7 @@ export class Intro extends Component {
             <div className="intro">
                 <br/>
                 <p> Hi! My name is Stephanie Zou.
-                I'm a full-stack web developer and graduate of Flatiron School where I completed an intensive software engineering bootcamp. 
+                I'm a full-stack web developer and graduate of Flatiron School where I completed a software engineering bootcamp. 
                 <br/><br/>
                 I've built apps using Ruby, Rails, Sinatra, JavaScript, React.js, Redux.js, HTML and various CSS libraries.
                 <br/><br/>
